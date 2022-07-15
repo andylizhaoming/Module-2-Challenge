@@ -1,1 +1,13 @@
 # Module-2-Challenge
+# Overview of Project
+The purpose of this project was to analyze a number of stocks over different years. The original script was refactored to create loops through the stock data to collect and output information on the Total Daily Volume and Return of those stocks.
+# Results of 2017
+The Static Formatting created the table for all tickers data of 2017. The Conditional Formatting highlighted all ticker's return that was positive with a green cell. All ticker's that had a negative return had a red cell, and all tickers that didn't have a return (value of 0) was left clear. All but one ticker had a positive return in 2017. The one ticker had a negative value in 2017. So all but the one ticker appeared to be posible options for investment.
+![image](https://user-images.githubusercontent.com/108849308/179129287-92126164-de44-4dc2-915b-3a3006076fec.png)
+# Results of 2018
+All stock codes with negative return have a red cell, and all stock codes with no return (value 0) are cleared. In 2018, only two stock companies achieved positive returns. In 2018, all other stocks were negative. Therefore, only these two stocks seem to be feasible investment options.
+![image](https://user-images.githubusercontent.com/108849308/179129333-496c0749-316a-4fb7-8884-a1fbe3b7eeb3.png)
+# Over All Results
+Both years (2017 and 2018) evaluations ran for the same amount of time of 0.0546875 seconds. Running the evaluation for only one ticker versus 12 tickers was the time of 0.2578125 seconds. The one ticker evaluation ran so much longer than doing all tickers for the year at the same time. This goes to show that the all tickers code was much more efficient. For investing, this analysis didn't cover enough years of data for a person to make a good judgement on their decision to invest in a company. However just using our data only two tickers appear worthy for investment.
+# Summary
+The advantages of refactoring code is time savings in writing new code. You only have to make adjustments to the older code to masauge it into creating your desired results. The disadvantage of refactoring code is that the older code could be for a different version of software you are using and not operate correctly when run. Also there may be errors left in it by the previous programmer that may blow up when you try to run the refactured code. The advantages of our refactored VBA script ran faster than the original and gave you the values for all the tickers. A disadvantage of the original VBA script was its run time was longer for just one ticker as comtaired to the refactored VBA script. It would take so much longer to create the same data for all of the tickers as the refactored VBA script.
